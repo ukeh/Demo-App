@@ -106,8 +106,6 @@ const WalletTxnComponent: React.FC = () => {
 
         try {
 
-            alert(transferForm.amount)
-
             const tx = {
                 from: account,
                 to: transferForm.address,
